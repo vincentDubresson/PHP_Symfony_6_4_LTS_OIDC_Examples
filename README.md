@@ -212,4 +212,13 @@ Ajout de ce nouvel Authenticator dans le fichier `security.yaml` :
                 # target: app_any_route
 ```
 
+Création d'un lien pour l'authenfication via GitHub dans le template `login.html.twig` :
+
+```html
+<!-- templates/security/login.html.twig -->
+<p>
+    <a href="{{ path('github_connect') }}">Se connecter avec GitHub</a>
+</p>
+```
+
 That's it !
