@@ -3,3 +3,7 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+oauth_check:
+    path: /oauth/check/{service}
+    controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController
