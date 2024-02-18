@@ -46,7 +46,7 @@ class GithubAuthenticator extends OAuth2Authenticator implements AuthenticationE
         return 'oauth_check' === $request->attributes->get('_route') && $request->get('service') === 'github';
     }
 
-    #[NoReturn] public function authenticate(Request $request): Passport
+    public function authenticate(Request $request): Passport
     {
         $client = $this->clientRegistry->getClient('github');
         $accessToken = $this->fetchAccessToken($client);
