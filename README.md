@@ -45,10 +45,10 @@ knpu_oauth2_client:
 > Note : Le client GitHub sera récupéré au travers du service `KnpU\OAuth2ClientBundle\Client\ClientRegistry`. Il sera
 > utilisé pour rediriger l'utilisateur vers le portail d'authentification de GitHub.
 
-Dans le ficher `AppAuthenticator`, ajouter une nouvelle route qui effectuera la redirection vers le portail d'authentification GitHub.
+Dans le controller `SecurityController`, ajouter une nouvelle route qui effectuera la redirection vers le portail d'authentification GitHub.
 
 ```php
-# src/Security/AppAuthenticator.php
+# src/Controller/SecurityController.php
 #[Route('/connect/github', name: 'github_connect')]
 public function connect(ClientRegistry $clientRegistry): RedirectResponse
 {
