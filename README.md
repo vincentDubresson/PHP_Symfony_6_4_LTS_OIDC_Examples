@@ -8,7 +8,7 @@
 > puis créer l'authentification avec `make:auth`. Pour l'authenticator, vous pouver le nommer comme bon vous semble. Ici
 > nous l'appellerons `AppAuthenticator`.
 
-Installation du bundle KnpUOAuth2ClientBundle et du client GitHub :
+Installation du bundle [KnpUOAuth2ClientBundle](https://github.com/knpuniversity/oauth2-client-bundle) et du [client GitHub](https://github.com/thephpleague/oauth2-github) :
 
 ```shell
 composer require knpuniversity/oauth2-client-bundle
