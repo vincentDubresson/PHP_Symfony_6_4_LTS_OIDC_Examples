@@ -192,6 +192,7 @@ class GithubAuthenticator extends OAuth2Authenticator implements AuthenticationE
 Ajout de ce nouvel Authenticator dans le fichier `security.yaml` :
 
 ```yaml
+# config/packages/security.yaml
     firewalls:
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
