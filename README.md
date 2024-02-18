@@ -1,4 +1,6 @@
-## PHP_Symfony_6_4_LTS_OIDC_Examples
+## PHP Symgfony 6.4 LTS : Authentification OpenID Connect.
+
+> Remerciements : Merci à Grafikart pour son tutoriel disponible [ici](https://grafikart.fr/tutoriels/symfony-oauth-authenticator-1362). Ce projet a été adapté pour une compatibilité avec Symfony 6.4 LTS.
 
 ### Étapes de mise en place
 
